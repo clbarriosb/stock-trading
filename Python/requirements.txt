@@ -1,0 +1,5 @@
+ pip install alpaca-py
+ pip install python-dotenv
+ pip install pandas
+ pip install numpy
+ pip install yfinance
