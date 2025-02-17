@@ -29,27 +29,35 @@ class TMOStrategy:
 
         # Aggregate hourly open and close prices
         df_hourly = df.resample("h").agg({"open": "first", "close": "last"}).dropna()
-
+        
 
         # Compute DataHour (+1, -1, 0)
         df_hourly["oHour"] = df_hourly["open"]
         df_hourly["cHour"] = df_hourly["close"]
+        # df_hourly["dataHour"] = np.where(
+        #     df_hourly["cHour"] > df_hourly["oHour"].shift(1), 1,
+        #     np.where(df_hourly["cHour"] < df_hourly["oHour"].shift(1), -1, 0)
+        # )
+
+
         df_hourly["dataHour"] = np.where(
-            df_hourly["cHour"] > df_hourly["oHour"].shift(1), 1,
-            np.where(df_hourly["cHour"] < df_hourly["oHour"].shift(1), -1, 0)
-        )
+        df_hourly["cHour"] > df_hourly["oHour"], 
+        1,
+        np.where(df_hourly["cHour"] < df_hourly["oHour"], -1, 0)
+        ).cumsum()
 
         # Exponential Moving Average Function
         def ema(series, length):
             return series.ewm(span=length, adjust=False).mean()
-        # print("dataHour",df_hourly["dataHour"])
+        
         # Calculate EMAs
         df_hourly["EMA5hour"] = ema(df_hourly["dataHour"], self.calc_length)
         df_hourly["mainHour"] = ema(df_hourly["EMA5hour"], self.smooth_length)
         df_hourly["signalHour"] = ema(df_hourly["mainHour"], self.smooth_length)
+        # print("df_hourly",df_hourly)
         return df_hourly["mainHour"], df_hourly["signalHour"]
-# 
-# 3. Trade Signal Generation
+
+# 3. Trade Signal Generation and Calculate the profie
     def generate_signals(self, df):
         """Generate trading signals"""
         main_line, signal_line = self.calculate_tmo(df)
@@ -60,11 +68,13 @@ class TMOStrategy:
         signals['main_line'] = main_line
         signals['signal_line'] = signal_line
         # print(signals)
-        # Generate buy/sell signals
+    # Generate buy/sell signals
         signals['buy_signal'] = (main_line > signal_line) & (main_line.shift(1) <= signal_line.shift(1))
         signals['sell_signal'] = (main_line < signal_line) & (main_line.shift(1) >= signal_line.shift(1))
         
-        # Calculate trailing stop and profit target
+        test_profit = 0
+
+    # Calculate trailing stop and profit target
         for i in range(len(signals)):
             current_price = df['close'].iloc[i]
             
@@ -73,11 +83,14 @@ class TMOStrategy:
                 self.highest_price = current_price
                 self.in_position = True
                 signals.loc[signals.index[i], 'order'] = 'BUY'
+
             
             elif self.in_position:
                 self.highest_price = max(self.highest_price, current_price)
                 trailing_stop = self.highest_price * (1 - self.trailing_stop_percent/100)
                 profit_target = self.buy_price * (1 + self.profit_target_percent/100)
+
+                test_profit += (current_price - self.buy_price) * 10000
                 
                 # Check for exit conditions
                 if (current_price <= trailing_stop or 
@@ -87,7 +100,8 @@ class TMOStrategy:
                     self.in_position = False
                     self.highest_price = 0
                     self.buy_price = 0
-        
+        print(signals)
+        print("test_profit",test_profit)
         return signals
 
     def run_strategy(self, df):

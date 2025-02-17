@@ -19,11 +19,14 @@ from datetime import datetime
 stock_client = StockHistoricalDataClient(api_key=api_key,secret_key=secret_key)
 
 symbols = "SPY"
+from alpaca.data.enums import Adjustment
+
 opening_bar = stock_client.get_stock_bars(StockBarsRequest(
                                   symbol_or_symbols=symbols,
                                   timeframe=TimeFrame.Hour,
-                                  start=datetime(2025, 2, 10,11),
-                                  end=datetime(2025, 2, 14,11),
+                                  start=datetime(2025, 2, 1,11),
+                                  end=datetime(2025, 2, 16,11),
+                                  adjustment=Adjustment('all')
                                   )).df.reset_index('timestamp')
 # open_prices = opening_bar.open
 
@@ -39,8 +42,8 @@ signals = strategy.run_strategy(opening_bar)
 
 # Print trade signals
 trades = signals[signals['order'].notna()]
-print(signals)
-print("\nTrade Signals:")
+# print(signals)
+# print("\nTrade Signals:")
 # print(trades[['order']])
 
 import pandas as pd
@@ -62,5 +65,5 @@ def save_to_json(df):
     with open('signal.json', 'w') as f:
         json.dump(data_dict, f, indent=4)
 
-save_to_json(signals)
+save_to_json(trades)
 
