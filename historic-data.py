@@ -15,83 +15,44 @@ from alpaca.data.historical import StockHistoricalDataClient
 stock_client = StockHistoricalDataClient(api_key=api_key,secret_key=secret_key)
 
 from alpaca.data.timeframe import TimeFrame
-from datetime import datetime
+from datetime import datetime , timedelta
 from alpaca.data.requests import StockBarsRequest
 
+import pytz
 
-# Set request parameters
-request_params = StockBarsRequest(
-    symbol_or_symbols=["AMD" , "NVDA" , "TSLA"],
-    timeframe=TimeFrame.Day,
-    start=datetime(2025, 1, 1),
-    end=datetime(2025, 1, 2)
-)
+# Create EST timezone object
+est = pytz.timezone('US/Eastern')
 
-# stock_bars = stock_client.get_stock_bars(request_params)
-
-# print(stock_bars.df)
-
-from alpaca.data.requests import StockTradesRequest
-
-# Set request parameters
-trades_request = StockTradesRequest(
-    symbol_or_symbols="AMD",
-    start=datetime(2023, 11, 2,11),
-    end=datetime(2023, 11, 2,12)
-)
-
-# Fetch trades
-# stock_trades = stock_client.get_stock_trades(trades_request)
-
-# Display trades
-# print(stock_trades.df)
-
-
-from alpaca.data.requests import StockQuotesRequest
-
-# Set request parameters
-quotes_request = StockQuotesRequest(
-    symbol_or_symbols="AMD",
-    start=datetime(2023, 11, 2,11),
-    end=datetime(2023, 11, 2,12)
-)
-
-# Fetch quotes
-# stock_quotes = stock_client.get_stock_quotes(quotes_request)
-
-# Display quotes
-# print(stock_quotes.df)
-
+# Convert datetime to EST
+start_time = datetime(2025, 2, 2, 11).replace(tzinfo=pytz.UTC).astimezone(est)
+end_time = datetime.now(est)
 
 symbols = "SPY"
 opening_bar = stock_client.get_stock_bars(StockBarsRequest(
-                                  symbol_or_symbols=symbols,
-                                  timeframe=TimeFrame.Minute,
-                                  start=datetime(2025, 2, 13,11),
-                                  end=datetime(2025, 2, 14,11),
-                                  )).df.reset_index('timestamp')
-open_prices = opening_bar.open
-print(opening_bar)
+        symbol_or_symbols=symbols,
+        timeframe=TimeFrame.Hour,
+        start=datetime(2025, 2, 3, 9).replace(tzinfo=pytz.UTC).astimezone(est),
+        end_time = datetime.now(pytz.UTC).astimezone(est) - timedelta(hours=2),
+    )).df.reset_index('timestamp')
+opening_bar['timestamp'] = opening_bar['timestamp'].dt.tz_convert('US/Eastern')
 
+open_prices = opening_bar.open
+# print(opening_bar)
+current_est = datetime.now(pytz.timezone('EST')) - timedelta(hours=2)
+print('current_est->' , current_est)
 
 
 import pandas as pd
 import json
 from datetime import datetime
 
-# Assuming your data is in a DataFrame called 'df'
 def save_to_json(df):
-    # Reset index to make 'symbol' a column
+
     df = df.reset_index()
-    
-    # Convert timestamp to string format
     df['timestamp'] = df['timestamp'].astype(str)
-    
-    # Convert DataFrame to dictionary format
     data_dict = df.to_dict('records')
-    
-    # Save to JSON file
     with open('market_data.json', 'w') as f:
         json.dump(data_dict, f, indent=4)
 
 save_to_json(opening_bar)
+

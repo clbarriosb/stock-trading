@@ -19,58 +19,56 @@ class TMOStrategy:
     def calculate_ema(self, data, period):
         """Calculate Exponential Moving Average"""
         return data.ewm(span=period, adjust=False).mean()
+    
 # 2. Hourly TMO calculation
     def calculate_tmo(self, df):
-        """Compute True Momentum Oscillator (TMO) using vectorized operations."""
-        
-        # Resampling to hourly OHLC data
+    # Resampling to hourly OHLC data
         df["timestamp"] = pd.to_datetime(df["timestamp"])
         df.set_index("timestamp", inplace=True)
-
+        
         # Aggregate hourly open and close prices
         df_hourly = df.resample("h").agg({"open": "first", "close": "last"}).dropna()
         
-
-        # Compute DataHour (+1, -1, 0)
-        df_hourly["oHour"] = df_hourly["open"]
-        df_hourly["cHour"] = df_hourly["close"]
-        # df_hourly["dataHour"] = np.where(
-        #     df_hourly["cHour"] > df_hourly["oHour"].shift(1), 1,
-        #     np.where(df_hourly["cHour"] < df_hourly["oHour"].shift(1), -1, 0)
-        # )
-
-
-        df_hourly["dataHour"] = np.where(
-        df_hourly["cHour"] > df_hourly["oHour"], 
-        1,
-        np.where(df_hourly["cHour"] < df_hourly["oHour"], -1, 0)
-        ).cumsum()
-
-        # Exponential Moving Average Function
-        def ema(series, length):
-            return series.ewm(span=length, adjust=False).mean()
+        # Calculate dataHour using the fold operation equivalent
+        data_hour = np.zeros(len(df_hourly))
+        for i in range(len(df_hourly)):
+            sum_value = 0
+            for j in range(min(self.length, i + 1)):
+                if df_hourly['close'].iloc[i] > df_hourly['open'].iloc[i-j]:
+                    sum_value += 1
+                elif df_hourly['close'].iloc[i] < df_hourly['open'].iloc[i-j]:
+                    sum_value -= 1
+            data_hour[i] = sum_value
         
-        # Calculate EMAs
-        df_hourly["EMA5hour"] = ema(df_hourly["dataHour"], self.calc_length)
-        df_hourly["mainHour"] = ema(df_hourly["EMA5hour"], self.smooth_length)
-        df_hourly["signalHour"] = ema(df_hourly["mainHour"], self.smooth_length)
-        # print("df_hourly",df_hourly)
-        return df_hourly["mainHour"], df_hourly["signalHour"]
+        # Exponential Moving Average calculations
+        df_hourly['dataHour'] = data_hour
+        df_hourly['EMA5hour'] = df_hourly['dataHour'].ewm(span=self.calc_length, adjust=False).mean()
+        df_hourly['mainHour'] = df_hourly['EMA5hour'].ewm(span=self.smooth_length, adjust=False).mean()
+        df_hourly['signalHour'] = df_hourly['mainHour'].ewm(span=self.smooth_length, adjust=False).mean()
+        
+        return df_hourly['mainHour'], df_hourly['signalHour']
 
 # 3. Trade Signal Generation and Calculate the profie
     def generate_signals(self, df):
         """Generate trading signals"""
         main_line, signal_line = self.calculate_tmo(df)
-        # print("main_line",main_line)
-        # print("signal_line",signal_line)
         
         signals = pd.DataFrame(index=main_line.index)
         signals['main_line'] = main_line
         signals['signal_line'] = signal_line
-        # print(signals)
-    # Generate buy/sell signals
-        signals['buy_signal'] = (main_line > signal_line) & (main_line.shift(1) <= signal_line.shift(1))
-        signals['sell_signal'] = (main_line < signal_line) & (main_line.shift(1) >= signal_line.shift(1))
+
+        # Add trading hours filter
+        signals['trading_hours'] = (signals.index.time >= pd.Timestamp('09:30').time()) & \
+                                (signals.index.time <= pd.Timestamp('16:00').time())
+
+        # Generate buy/sell signals with trading hours restriction
+        signals['buy_signal'] = (main_line > signal_line) & \
+                            (main_line.shift(1) <= signal_line.shift(1)) & \
+                            signals['trading_hours']
+
+        signals['sell_signal'] = (main_line < signal_line) & \
+                                (main_line.shift(1) >= signal_line.shift(1)) & \
+                                signals['trading_hours']
         
         test_profit = 0
 
@@ -107,13 +105,4 @@ class TMOStrategy:
     def run_strategy(self, df):
         """Execute the strategy on historical data"""
         signals = self.generate_signals(df)
-        
-        # Add additional metrics for visualization
-        # signals['trailing_stop'] = np.where(self.in_position, 
-        #                                   self.highest_price * (1 - self.trailing_stop_percent/100),
-        #                                   np.nan)
-        # signals['profit_target'] = np.where(self.in_position,
-        #                                   self.buy_price * (1 + self.profit_target_percent/100),
-        #                                   np.nan)
-        
         return signals

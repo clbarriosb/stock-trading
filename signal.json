@@ -1,176 +1,72 @@
 [
     {
-        "timestamp": "2025-02-03 10:00:00+00:00",
-        "main_line": -0.8333333333333334,
-        "signal_line": -0.9166666666666667,
+        "timestamp": "2025-01-27 14:00:00-05:00",
+        "main_line": 2.5500584657445518,
+        "signal_line": 2.3579294314891026,
+        "trading_hours": true,
         "buy_signal": true,
         "sell_signal": false,
         "order": "BUY"
     },
     {
-        "timestamp": "2025-02-03 12:00:00+00:00",
-        "main_line": -0.9953703703703705,
-        "signal_line": -0.9282407407407408,
+        "timestamp": "2025-01-30 10:00:00-05:00",
+        "main_line": 4.429007770315266,
+        "signal_line": 4.760392911570139,
+        "trading_hours": true,
         "buy_signal": false,
         "sell_signal": true,
         "order": "SELL"
     },
     {
-        "timestamp": "2025-02-03 19:00:00+00:00",
-        "main_line": -2.4796811526497065,
-        "signal_line": -2.597057617799413,
+        "timestamp": "2025-01-30 13:00:00-05:00",
+        "main_line": 4.561274068974953,
+        "signal_line": 4.243223510676751,
+        "trading_hours": true,
         "buy_signal": true,
         "sell_signal": false,
         "order": "BUY"
     },
     {
-        "timestamp": "2025-02-04 09:00:00+00:00",
-        "main_line": -1.6536635322159146,
-        "signal_line": -1.575942787088079,
+        "timestamp": "2025-01-31 12:00:00-05:00",
+        "main_line": 12.761200095748356,
+        "signal_line": 12.815194535563467,
+        "trading_hours": true,
         "buy_signal": false,
         "sell_signal": true,
         "order": "SELL"
     },
     {
-        "timestamp": "2025-02-04 12:00:00+00:00",
-        "main_line": -1.4065810710643727,
-        "signal_line": -1.5562642157981788,
+        "timestamp": "2025-02-03 10:00:00-05:00",
+        "main_line": -10.762782532445335,
+        "signal_line": -11.670553132515455,
+        "trading_hours": true,
         "buy_signal": true,
         "sell_signal": false,
         "order": "BUY"
     },
     {
-        "timestamp": "2025-02-04 23:00:00+00:00",
-        "main_line": 2.438922218379485,
-        "signal_line": 2.556570172043357,
+        "timestamp": "2025-02-04 16:00:00-05:00",
+        "main_line": 7.45738357434962,
+        "signal_line": 7.5041667350458106,
+        "trading_hours": true,
         "buy_signal": false,
         "sell_signal": true,
         "order": "SELL"
     },
     {
-        "timestamp": "2025-02-05 11:00:00+00:00",
-        "main_line": 2.054657615363623,
-        "signal_line": 2.0521126023210146,
+        "timestamp": "2025-02-11 10:00:00-05:00",
+        "main_line": -5.311935416514333,
+        "signal_line": -6.3055921942698,
+        "trading_hours": true,
         "buy_signal": true,
         "sell_signal": false,
         "order": "BUY"
     },
     {
-        "timestamp": "2025-02-06 12:00:00+00:00",
-        "main_line": 12.099022434497602,
-        "signal_line": 12.127700807331973,
-        "buy_signal": false,
-        "sell_signal": true,
-        "order": "SELL"
-    },
-    {
-        "timestamp": "2025-02-06 13:00:00+00:00",
-        "main_line": 12.214452917034624,
-        "signal_line": 12.171076862183298,
-        "buy_signal": true,
-        "sell_signal": false,
-        "order": "BUY"
-    },
-    {
-        "timestamp": "2025-02-06 15:00:00+00:00",
-        "main_line": 12.015234551314297,
-        "signal_line": 12.104683389129939,
-        "buy_signal": false,
-        "sell_signal": true,
-        "order": "SELL"
-    },
-    {
-        "timestamp": "2025-02-06 17:00:00+00:00",
-        "main_line": 12.097862558742193,
-        "signal_line": 12.06144657147793,
-        "buy_signal": true,
-        "sell_signal": false,
-        "order": "BUY"
-    },
-    {
-        "timestamp": "2025-02-06 19:00:00+00:00",
-        "main_line": 11.955156271202714,
-        "signal_line": 12.026034876495864,
-        "buy_signal": false,
-        "sell_signal": true,
-        "order": "SELL"
-    },
-    {
-        "timestamp": "2025-02-07 09:00:00+00:00",
-        "main_line": 11.592118999096858,
-        "signal_line": 11.470387970785378,
-        "buy_signal": true,
-        "sell_signal": false,
-        "order": "BUY"
-    },
-    {
-        "timestamp": "2025-02-07 18:00:00+00:00",
-        "main_line": 12.632131400643113,
-        "signal_line": 12.66920391493715,
-        "buy_signal": false,
-        "sell_signal": true,
-        "order": "SELL"
-    },
-    {
-        "timestamp": "2025-02-10 12:00:00+00:00",
-        "main_line": 10.256021496274531,
-        "signal_line": 10.055431869072791,
-        "buy_signal": true,
-        "sell_signal": false,
-        "order": "BUY"
-    },
-    {
-        "timestamp": "2025-02-10 21:00:00+00:00",
-        "main_line": 12.383284099258468,
-        "signal_line": 12.475589104872146,
-        "buy_signal": false,
-        "sell_signal": true,
-        "order": "SELL"
-    },
-    {
-        "timestamp": "2025-02-11 20:00:00+00:00",
-        "main_line": 8.156746838613074,
-        "signal_line": 8.14742584715406,
-        "buy_signal": true,
-        "sell_signal": false,
-        "order": "BUY"
-    },
-    {
-        "timestamp": "2025-02-11 21:00:00+00:00",
-        "main_line": 7.971318109745894,
-        "signal_line": 8.059371978449978,
-        "buy_signal": false,
-        "sell_signal": true,
-        "order": "SELL"
-    },
-    {
-        "timestamp": "2025-02-12 10:00:00+00:00",
-        "main_line": 7.425744536214096,
-        "signal_line": 7.417601076457233,
-        "buy_signal": true,
-        "sell_signal": false,
-        "order": "BUY"
-    },
-    {
-        "timestamp": "2025-02-14 11:00:00+00:00",
-        "main_line": 18.459372007456416,
-        "signal_line": 18.594586223754135,
-        "buy_signal": false,
-        "sell_signal": true,
-        "order": "SELL"
-    },
-    {
-        "timestamp": "2025-02-14 14:00:00+00:00",
-        "main_line": 18.62918503149328,
-        "signal_line": 18.505836023253863,
-        "buy_signal": true,
-        "sell_signal": false,
-        "order": "BUY"
-    },
-    {
-        "timestamp": "2025-02-14 20:00:00+00:00",
-        "main_line": 19.233059556969035,
-        "signal_line": 19.35007907219731,
+        "timestamp": "2025-02-14 14:00:00-05:00",
+        "main_line": 8.941303278257237,
+        "signal_line": 9.060758588521544,
+        "trading_hours": true,
         "buy_signal": false,
         "sell_signal": true,
         "order": "SELL"

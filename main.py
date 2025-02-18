@@ -14,20 +14,30 @@ print("Secret Key:", secret_key)
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
-from datetime import datetime
+from datetime import datetime , timedelta
 
 stock_client = StockHistoricalDataClient(api_key=api_key,secret_key=secret_key)
 
-symbols = "SPY"
 from alpaca.data.enums import Adjustment
 
+symbols = "SPY"
+
+
+import pytz
+
+# Create EST timezone object
+est = pytz.timezone('US/Eastern')
+
+symbols = "SPY"
 opening_bar = stock_client.get_stock_bars(StockBarsRequest(
-                                  symbol_or_symbols=symbols,
-                                  timeframe=TimeFrame.Hour,
-                                  start=datetime(2025, 2, 1,11),
-                                  end=datetime(2025, 2, 16,11),
-                                  adjustment=Adjustment('all')
-                                  )).df.reset_index('timestamp')
+        symbol_or_symbols=symbols,
+        timeframe=TimeFrame.Hour,
+        start=datetime(2025, 1, 27,11).replace(tzinfo=pytz.UTC).astimezone(est),
+        end_time = datetime.now(pytz.UTC).astimezone(est),
+    )).df.reset_index('timestamp')
+opening_bar['timestamp'] = opening_bar['timestamp'].dt.tz_convert('US/Eastern')
+
+
 # open_prices = opening_bar.open
 
 # print(opening_bar.open)
