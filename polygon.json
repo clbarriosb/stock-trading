@@ -1,1938 +1,1850 @@
 [
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-03 04:00:00-05:00",
-        "open": 593.91,
-        "high": 594.6,
-        "low": 590.36,
-        "close": 592.11,
-        "volume": 256676.0,
-        "trade_count": 2545.0,
-        "vwap": 593.331683
-    },
-    {
-        "symbol": "SPY",
-        "timestamp": "2025-02-03 05:00:00-05:00",
-        "open": 592.3,
-        "high": 593.77,
-        "low": 591.8,
-        "close": 593.36,
-        "volume": 163303.0,
-        "trade_count": 1319.0,
-        "vwap": 593.158
-    },
-    {
-        "symbol": "SPY",
-        "timestamp": "2025-02-03 06:00:00-05:00",
-        "open": 593.61,
-        "high": 594.3,
-        "low": 592.78,
-        "close": 593.21,
-        "volume": 279024.0,
-        "trade_count": 2159.0,
-        "vwap": 593.461064
-    },
-    {
-        "symbol": "SPY",
-        "timestamp": "2025-02-03 07:00:00-05:00",
-        "open": 593.15,
-        "high": 593.45,
-        "low": 591.55,
-        "close": 591.83,
-        "volume": 388505.0,
-        "trade_count": 4988.0,
-        "vwap": 592.46541
-    },
-    {
-        "symbol": "SPY",
-        "timestamp": "2025-02-03 08:00:00-05:00",
-        "open": 592.9,
-        "high": 594.15,
-        "low": 589.5,
-        "close": 592.54,
-        "volume": 1047378.0,
-        "trade_count": 12124.0,
-        "vwap": 592.260128
-    },
-    {
-        "symbol": "SPY",
-        "timestamp": "2025-02-03 09:00:00-05:00",
-        "open": 592.4,
-        "high": 594.37,
-        "low": 591.6,
-        "close": 592.0361,
-        "volume": 8554364.0,
-        "trade_count": 117902.0,
-        "vwap": 592.856723
-    },
-    {
-        "symbol": "SPY",
-        "timestamp": "2025-02-03 10:00:00-05:00",
-        "open": 591.97,
-        "high": 598.65,
-        "low": 590.49,
-        "close": 597.88,
-        "volume": 14203341.0,
-        "trade_count": 190087.0,
-        "vwap": 594.673753
-    },
-    {
-        "symbol": "SPY",
-        "timestamp": "2025-02-03 11:00:00-05:00",
-        "open": 597.86,
-        "high": 599.25,
-        "low": 595.76,
-        "close": 597.3399,
-        "volume": 7063964.0,
-        "trade_count": 95325.0,
-        "vwap": 598.042808
-    },
-    {
-        "symbol": "SPY",
-        "timestamp": "2025-02-03 12:00:00-05:00",
+        "timestamp": "2025-02-03 09:00:00",
         "open": 597.32,
         "high": 598.7,
-        "low": 596.02,
+        "low": 595.97,
         "close": 597.38,
-        "volume": 5567603.0,
-        "trade_count": 76946.0,
-        "vwap": 597.141195
+        "volume": 5711487.0,
+        "trade_count": 78651,
+        "vwap": 597.1225
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-03 13:00:00-05:00",
+        "timestamp": "2025-02-03 10:00:00",
         "open": 597.3435,
         "high": 599.0,
         "low": 596.08,
         "close": 598.835,
         "volume": 4473772.0,
-        "trade_count": 58510.0,
-        "vwap": 597.706155
+        "trade_count": 58510,
+        "vwap": 598.2012
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-03 14:00:00-05:00",
+        "timestamp": "2025-02-03 11:00:00",
         "open": 598.81,
         "high": 600.29,
         "low": 598.5,
         "close": 599.68,
-        "volume": 4100468.0,
-        "trade_count": 51717.0,
-        "vwap": 599.574664
+        "volume": 4094791.0,
+        "trade_count": 51696,
+        "vwap": 599.7886
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-03 15:00:00-05:00",
+        "timestamp": "2025-02-03 12:00:00",
         "open": 599.7,
         "high": 600.0258,
         "low": 597.39,
         "close": 597.65,
         "volume": 10753685.0,
-        "trade_count": 95163.0,
-        "vwap": 598.386064
+        "trade_count": 95163,
+        "vwap": 598.9265
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-03 16:00:00-05:00",
-        "open": 597.65,
+        "timestamp": "2025-02-03 13:00:00",
+        "open": 597.7,
         "high": 601.44,
         "low": 597.41,
         "close": 600.84,
-        "volume": 8179258.0,
-        "trade_count": 15481.0,
-        "vwap": 598.782105
+        "volume": 6746516.0,
+        "trade_count": 15432,
+        "vwap": 598.726
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-03 17:00:00-05:00",
+        "timestamp": "2025-02-03 14:00:00",
         "open": 600.82,
         "high": 601.75,
         "low": 600.66,
         "close": 601.75,
-        "volume": 419131.0,
-        "trade_count": 2459.0,
-        "vwap": 601.017381
+        "volume": 308974.0,
+        "trade_count": 2458,
+        "vwap": 599.9535
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-03 18:00:00-05:00",
+        "timestamp": "2025-02-03 15:00:00",
         "open": 601.9,
         "high": 602.05,
         "low": 600.74,
         "close": 601.08,
         "volume": 136418.0,
-        "trade_count": 1701.0,
-        "vwap": 601.455263
+        "trade_count": 1701,
+        "vwap": 601.4268
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-03 19:00:00-05:00",
+        "timestamp": "2025-02-03 16:00:00",
         "open": 600.97,
         "high": 600.97,
         "low": 600.23,
         "close": 600.44,
         "volume": 116372.0,
-        "trade_count": 1115.0,
-        "vwap": 600.565924
+        "trade_count": 1115,
+        "vwap": 600.565
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 04:00:00-05:00",
+        "timestamp": "2025-02-04 01:00:00",
         "open": 596.78,
         "high": 596.88,
         "low": 595.81,
         "close": 596.2,
         "volume": 111007.0,
-        "trade_count": 1268.0,
-        "vwap": 596.252952
+        "trade_count": 1268,
+        "vwap": 596.2716
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 05:00:00-05:00",
+        "timestamp": "2025-02-04 02:00:00",
         "open": 596.08,
         "high": 597.0,
         "low": 596.02,
         "close": 596.7,
         "volume": 19195.0,
-        "trade_count": 342.0,
-        "vwap": 596.639658
+        "trade_count": 342,
+        "vwap": 596.6115
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 06:00:00-05:00",
+        "timestamp": "2025-02-04 03:00:00",
         "open": 596.7,
         "high": 597.3,
         "low": 596.36,
         "close": 596.8,
         "volume": 71049.0,
-        "trade_count": 713.0,
-        "vwap": 596.918969
+        "trade_count": 713,
+        "vwap": 596.92
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 07:00:00-05:00",
+        "timestamp": "2025-02-04 04:00:00",
         "open": 596.91,
         "high": 598.55,
         "low": 596.85,
         "close": 598.19,
         "volume": 231604.0,
-        "trade_count": 2763.0,
-        "vwap": 597.890786
+        "trade_count": 2763,
+        "vwap": 597.8738
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 08:00:00-05:00",
+        "timestamp": "2025-02-04 05:00:00",
         "open": 597.21,
         "high": 598.52,
         "low": 594.49,
         "close": 597.49,
         "volume": 362667.0,
-        "trade_count": 5328.0,
-        "vwap": 597.711449
+        "trade_count": 5328,
+        "vwap": 597.7053
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 09:00:00-05:00",
+        "timestamp": "2025-02-04 06:00:00",
         "open": 597.61,
         "high": 599.2,
         "low": 597.28,
         "close": 598.995,
-        "volume": 3975573.0,
-        "trade_count": 52151.0,
-        "vwap": 598.195252
+        "volume": 3961748.0,
+        "trade_count": 52060,
+        "vwap": 598.2003
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 10:00:00-05:00",
+        "timestamp": "2025-02-04 07:00:00",
         "open": 598.9943,
         "high": 601.26,
         "low": 598.96,
         "close": 600.33,
-        "volume": 4603671.0,
-        "trade_count": 70751.0,
-        "vwap": 600.502324
+        "volume": 4492671.0,
+        "trade_count": 70750,
+        "vwap": 600.5054
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 11:00:00-05:00",
+        "timestamp": "2025-02-04 08:00:00",
         "open": 600.375,
         "high": 602.09,
         "low": 600.375,
         "close": 601.37,
         "volume": 3179353.0,
-        "trade_count": 44232.0,
-        "vwap": 601.442897
+        "trade_count": 44232,
+        "vwap": 601.1036
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 12:00:00-05:00",
+        "timestamp": "2025-02-04 09:00:00",
         "open": 601.38,
         "high": 601.64,
         "low": 599.4054,
         "close": 600.99,
-        "volume": 3013441.0,
-        "trade_count": 44977.0,
-        "vwap": 600.47274
+        "volume": 3094907.0,
+        "trade_count": 46068,
+        "vwap": 600.501
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 13:00:00-05:00",
+        "timestamp": "2025-02-04 10:00:00",
         "open": 600.98,
         "high": 601.259,
         "low": 600.11,
         "close": 600.725,
         "volume": 1515509.0,
-        "trade_count": 31765.0,
-        "vwap": 600.857114
+        "trade_count": 31765,
+        "vwap": 600.8568
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 14:00:00-05:00",
+        "timestamp": "2025-02-04 11:00:00",
         "open": 600.7,
         "high": 602.3,
         "low": 600.57,
         "close": 601.48,
-        "volume": 2641590.0,
-        "trade_count": 37175.0,
-        "vwap": 601.761992
+        "volume": 2993166.0,
+        "trade_count": 40391,
+        "vwap": 601.699
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 15:00:00-05:00",
+        "timestamp": "2025-02-04 12:00:00",
         "open": 601.47,
         "high": 602.27,
         "low": 600.97,
         "close": 601.76,
         "volume": 7979362.0,
-        "trade_count": 73579.0,
-        "vwap": 601.706787
+        "trade_count": 73579,
+        "vwap": 601.2307
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 16:00:00-05:00",
+        "timestamp": "2025-02-04 13:00:00",
         "open": 601.76,
         "high": 602.09,
         "low": 599.75,
         "close": 600.0783,
-        "volume": 4757806.0,
-        "trade_count": 7860.0,
-        "vwap": 601.46148
+        "volume": 2929650.0,
+        "trade_count": 7810,
+        "vwap": 600.852
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 17:00:00-05:00",
+        "timestamp": "2025-02-04 14:00:00",
         "open": 600.01,
         "high": 600.18,
         "low": 599.57,
         "close": 599.6,
-        "volume": 344946.0,
-        "trade_count": 1756.0,
-        "vwap": 599.950283
+        "volume": 248413.0,
+        "trade_count": 1755,
+        "vwap": 599.9355
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 18:00:00-05:00",
+        "timestamp": "2025-02-04 15:00:00",
         "open": 599.8,
         "high": 600.2699,
         "low": 599.48,
         "close": 599.75,
         "volume": 137107.0,
-        "trade_count": 937.0,
-        "vwap": 599.960358
+        "trade_count": 937,
+        "vwap": 599.9599
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-04 19:00:00-05:00",
+        "timestamp": "2025-02-04 16:00:00",
         "open": 599.81,
         "high": 600.72,
         "low": 599.5119,
         "close": 600.4,
         "volume": 68029.0,
-        "trade_count": 842.0,
-        "vwap": 600.489293
+        "trade_count": 842,
+        "vwap": 600.4686
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 04:00:00-05:00",
+        "timestamp": "2025-02-05 01:00:00",
         "open": 598.43,
         "high": 599.18,
         "low": 597.7,
         "close": 597.78,
         "volume": 49194.0,
-        "trade_count": 893.0,
-        "vwap": 598.425035
+        "trade_count": 893,
+        "vwap": 598.4313
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 05:00:00-05:00",
+        "timestamp": "2025-02-05 02:00:00",
         "open": 597.66,
         "high": 598.74,
         "low": 597.66,
         "close": 598.64,
         "volume": 17406.0,
-        "trade_count": 280.0,
-        "vwap": 598.472062
+        "trade_count": 280,
+        "vwap": 598.4655
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 06:00:00-05:00",
+        "timestamp": "2025-02-05 03:00:00",
         "open": 598.7,
         "high": 599.28,
         "low": 598.7,
         "close": 599.22,
         "volume": 22982.0,
-        "trade_count": 349.0,
-        "vwap": 599.060755
+        "trade_count": 349,
+        "vwap": 599.0569
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 07:00:00-05:00",
+        "timestamp": "2025-02-05 04:00:00",
         "open": 599.18,
         "high": 599.52,
         "low": 598.79,
         "close": 599.48,
         "volume": 96340.0,
-        "trade_count": 1109.0,
-        "vwap": 599.2504
+        "trade_count": 1109,
+        "vwap": 599.2381
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 08:00:00-05:00",
+        "timestamp": "2025-02-05 05:00:00",
         "open": 598.96,
         "high": 600.49,
         "low": 598.36,
         "close": 599.9906,
         "volume": 266185.0,
-        "trade_count": 4344.0,
-        "vwap": 599.629972
+        "trade_count": 4344,
+        "vwap": 599.5958
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 09:00:00-05:00",
+        "timestamp": "2025-02-05 06:00:00",
         "open": 600.0,
         "high": 601.09,
         "low": 599.47,
         "close": 600.12,
-        "volume": 2954097.0,
-        "trade_count": 45995.0,
-        "vwap": 600.550123
+        "volume": 2949946.0,
+        "trade_count": 45964,
+        "vwap": 600.5403
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 10:00:00-05:00",
+        "timestamp": "2025-02-05 07:00:00",
         "open": 600.12,
         "high": 601.1,
         "low": 598.58,
         "close": 600.585,
         "volume": 4548971.0,
-        "trade_count": 77454.0,
-        "vwap": 599.946107
+        "trade_count": 77454,
+        "vwap": 599.9676
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 11:00:00-05:00",
+        "timestamp": "2025-02-05 08:00:00",
         "open": 600.57,
         "high": 602.88,
         "low": 600.135,
         "close": 602.65,
         "volume": 4052928.0,
-        "trade_count": 54510.0,
-        "vwap": 601.565451
+        "trade_count": 54510,
+        "vwap": 601.5462
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 12:00:00-05:00",
+        "timestamp": "2025-02-05 09:00:00",
         "open": 602.64,
         "high": 603.17,
         "low": 602.32,
         "close": 602.67,
         "volume": 2099626.0,
-        "trade_count": 35876.0,
-        "vwap": 602.749599
+        "trade_count": 35876,
+        "vwap": 602.7428
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 13:00:00-05:00",
+        "timestamp": "2025-02-05 10:00:00",
         "open": 602.675,
         "high": 603.4,
         "low": 602.21,
         "close": 602.93,
         "volume": 1681412.0,
-        "trade_count": 29661.0,
-        "vwap": 602.841907
+        "trade_count": 29661,
+        "vwap": 602.8138
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 14:00:00-05:00",
+        "timestamp": "2025-02-05 11:00:00",
         "open": 602.92,
         "high": 603.635,
         "low": 602.88,
         "close": 603.0699,
         "volume": 2201587.0,
-        "trade_count": 31325.0,
-        "vwap": 603.25812
+        "trade_count": 31325,
+        "vwap": 603.2517
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 15:00:00-05:00",
+        "timestamp": "2025-02-05 12:00:00",
         "open": 603.07,
         "high": 604.37,
         "low": 602.91,
         "close": 604.17,
-        "volume": 7057987.0,
-        "trade_count": 66220.0,
-        "vwap": 603.680427
+        "volume": 7027987.0,
+        "trade_count": 66219,
+        "vwap": 603.3964
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 16:00:00-05:00",
-        "open": 604.15,
+        "timestamp": "2025-02-05 13:00:00",
+        "open": 604.17,
         "high": 604.72,
         "low": 602.0031,
         "close": 604.52,
-        "volume": 5331283.0,
-        "trade_count": 5629.0,
-        "vwap": 604.225453
+        "volume": 3705281.0,
+        "trade_count": 5576,
+        "vwap": 604.1931
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 17:00:00-05:00",
+        "timestamp": "2025-02-05 14:00:00",
         "open": 604.57,
         "high": 604.65,
         "low": 604.35,
         "close": 604.45,
-        "volume": 150783.0,
-        "trade_count": 1194.0,
-        "vwap": 604.543266
+        "volume": 71135.0,
+        "trade_count": 1192,
+        "vwap": 604.3416
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 18:00:00-05:00",
+        "timestamp": "2025-02-05 15:00:00",
         "open": 604.45,
         "high": 604.56,
         "low": 604.26,
         "close": 604.5,
         "volume": 43812.0,
-        "trade_count": 627.0,
-        "vwap": 604.403682
+        "trade_count": 627,
+        "vwap": 604.4024
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-05 19:00:00-05:00",
+        "timestamp": "2025-02-05 16:00:00",
         "open": 604.54,
         "high": 605.07,
         "low": 604.54,
         "close": 604.74,
         "volume": 59051.0,
-        "trade_count": 862.0,
-        "vwap": 604.790188
+        "trade_count": 862,
+        "vwap": 604.7999
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 04:00:00-05:00",
+        "timestamp": "2025-02-06 01:00:00",
         "open": 605.59,
         "high": 606.03,
         "low": 605.45,
         "close": 605.48,
         "volume": 21003.0,
-        "trade_count": 380.0,
-        "vwap": 605.843153
+        "trade_count": 380,
+        "vwap": 605.8125
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 05:00:00-05:00",
+        "timestamp": "2025-02-06 02:00:00",
         "open": 605.48,
         "high": 605.75,
         "low": 605.16,
         "close": 605.16,
         "volume": 17612.0,
-        "trade_count": 232.0,
-        "vwap": 605.38608
+        "trade_count": 232,
+        "vwap": 605.3825
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 06:00:00-05:00",
+        "timestamp": "2025-02-06 03:00:00",
         "open": 605.1,
         "high": 605.1,
         "low": 604.34,
         "close": 604.5,
         "volume": 55602.0,
-        "trade_count": 591.0,
-        "vwap": 604.589037
+        "trade_count": 591,
+        "vwap": 604.5949
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 07:00:00-05:00",
+        "timestamp": "2025-02-06 04:00:00",
         "open": 604.47,
         "high": 605.35,
         "low": 604.33,
         "close": 605.3,
         "volume": 199910.0,
-        "trade_count": 1319.0,
-        "vwap": 604.896413
+        "trade_count": 1319,
+        "vwap": 604.892
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 08:00:00-05:00",
+        "timestamp": "2025-02-06 05:00:00",
         "open": 604.36,
         "high": 606.0304,
         "low": 604.3318,
         "close": 605.68,
         "volume": 151551.0,
-        "trade_count": 3093.0,
-        "vwap": 605.381682
+        "trade_count": 3093,
+        "vwap": 605.3848
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 09:00:00-05:00",
+        "timestamp": "2025-02-06 06:00:00",
         "open": 605.7,
         "high": 606.22,
         "low": 604.94,
         "close": 605.2699,
-        "volume": 3390778.0,
-        "trade_count": 44801.0,
-        "vwap": 605.595966
+        "volume": 3386719.0,
+        "trade_count": 44780,
+        "vwap": 605.594
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 10:00:00-05:00",
+        "timestamp": "2025-02-06 07:00:00",
         "open": 605.22,
         "high": 605.945,
         "low": 604.16,
         "close": 604.62,
         "volume": 3143534.0,
-        "trade_count": 57737.0,
-        "vwap": 605.064317
+        "trade_count": 57737,
+        "vwap": 605.0717
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 11:00:00-05:00",
+        "timestamp": "2025-02-06 08:00:00",
         "open": 604.63,
         "high": 605.6999,
         "low": 604.54,
         "close": 605.12,
         "volume": 2123520.0,
-        "trade_count": 37052.0,
-        "vwap": 605.263087
+        "trade_count": 37052,
+        "vwap": 605.2689
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 12:00:00-05:00",
+        "timestamp": "2025-02-06 09:00:00",
         "open": 605.13,
         "high": 605.78,
         "low": 604.75,
         "close": 605.61,
         "volume": 1681581.0,
-        "trade_count": 31134.0,
-        "vwap": 605.259738
+        "trade_count": 31134,
+        "vwap": 605.2612
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 13:00:00-05:00",
+        "timestamp": "2025-02-06 10:00:00",
         "open": 605.61,
         "high": 605.99,
         "low": 605.0401,
         "close": 605.16,
         "volume": 2278554.0,
-        "trade_count": 33439.0,
-        "vwap": 605.495818
+        "trade_count": 33439,
+        "vwap": 605.4277
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 14:00:00-05:00",
+        "timestamp": "2025-02-06 11:00:00",
         "open": 605.15,
         "high": 605.49,
         "low": 602.63,
         "close": 603.73,
         "volume": 4779849.0,
-        "trade_count": 51899.0,
-        "vwap": 604.17842
+        "trade_count": 51899,
+        "vwap": 604.1655
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 15:00:00-05:00",
+        "timestamp": "2025-02-06 12:00:00",
         "open": 603.72,
         "high": 606.4525,
         "low": 603.53,
         "close": 606.34,
         "volume": 8886982.0,
-        "trade_count": 76426.0,
-        "vwap": 605.405476
+        "trade_count": 76426,
+        "vwap": 605.3173
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 16:00:00-05:00",
-        "open": 606.36,
+        "timestamp": "2025-02-06 13:00:00",
+        "open": 606.37,
         "high": 606.47,
         "low": 603.32,
         "close": 605.12,
-        "volume": 8707570.0,
-        "trade_count": 9351.0,
-        "vwap": 605.9434
+        "volume": 7066861.0,
+        "trade_count": 9329,
+        "vwap": 605.8684
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 17:00:00-05:00",
+        "timestamp": "2025-02-06 14:00:00",
         "open": 605.17,
         "high": 605.18,
         "low": 604.52,
         "close": 604.66,
-        "volume": 223659.0,
-        "trade_count": 1347.0,
-        "vwap": 604.912045
+        "volume": 141460.0,
+        "trade_count": 1345,
+        "vwap": 604.9142
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 18:00:00-05:00",
+        "timestamp": "2025-02-06 15:00:00",
         "open": 604.55,
         "high": 605.7,
         "low": 604.5,
         "close": 605.63,
         "volume": 61880.0,
-        "trade_count": 789.0,
-        "vwap": 605.248799
+        "trade_count": 789,
+        "vwap": 605.251
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-06 19:00:00-05:00",
+        "timestamp": "2025-02-06 16:00:00",
         "open": 605.6,
         "high": 605.99,
         "low": 605.41,
         "close": 605.99,
         "volume": 25879.0,
-        "trade_count": 461.0,
-        "vwap": 605.709505
+        "trade_count": 461,
+        "vwap": 605.7152
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 04:00:00-05:00",
+        "timestamp": "2025-02-07 01:00:00",
         "open": 605.6,
         "high": 606.32,
         "low": 605.6,
         "close": 606.23,
         "volume": 7694.0,
-        "trade_count": 205.0,
-        "vwap": 606.038335
+        "trade_count": 205,
+        "vwap": 606.0291
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 05:00:00-05:00",
+        "timestamp": "2025-02-07 02:00:00",
         "open": 606.33,
         "high": 606.49,
         "low": 606.19,
         "close": 606.24,
         "volume": 2664.0,
-        "trade_count": 58.0,
-        "vwap": 606.277799
+        "trade_count": 58,
+        "vwap": 606.2951
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 06:00:00-05:00",
+        "timestamp": "2025-02-07 03:00:00",
         "open": 606.32,
         "high": 606.69,
         "low": 606.09,
         "close": 606.6,
         "volume": 16514.0,
-        "trade_count": 215.0,
-        "vwap": 606.467353
+        "trade_count": 215,
+        "vwap": 606.458
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 07:00:00-05:00",
+        "timestamp": "2025-02-07 04:00:00",
         "open": 606.61,
         "high": 606.65,
         "low": 606.28,
         "close": 606.31,
         "volume": 52138.0,
-        "trade_count": 685.0,
-        "vwap": 606.426846
+        "trade_count": 685,
+        "vwap": 606.4325
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 08:00:00-05:00",
+        "timestamp": "2025-02-07 05:00:00",
         "open": 606.63,
         "high": 607.22,
         "low": 604.4,
         "close": 606.77,
         "volume": 1038325.0,
-        "trade_count": 8374.0,
-        "vwap": 605.939294
+        "trade_count": 8374,
+        "vwap": 605.9397
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 09:00:00-05:00",
+        "timestamp": "2025-02-07 06:00:00",
         "open": 606.79,
         "high": 608.13,
         "low": 606.38,
         "close": 607.8103,
-        "volume": 3275396.0,
-        "trade_count": 41112.0,
-        "vwap": 607.330986
+        "volume": 3264877.0,
+        "trade_count": 41040,
+        "vwap": 607.3506
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 10:00:00-05:00",
+        "timestamp": "2025-02-07 07:00:00",
         "open": 607.77,
         "high": 607.81,
         "low": 601.18,
         "close": 603.41,
-        "volume": 9106549.0,
-        "trade_count": 125091.0,
-        "vwap": 604.273724
+        "volume": 9620782.0,
+        "trade_count": 132526,
+        "vwap": 604.3029
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 11:00:00-05:00",
+        "timestamp": "2025-02-07 08:00:00",
         "open": 603.45,
         "high": 604.5395,
         "low": 601.29,
         "close": 601.5988,
-        "volume": 10720951.0,
-        "trade_count": 112850.0,
-        "vwap": 602.407847
+        "volume": 10806572.0,
+        "trade_count": 114184,
+        "vwap": 602.4284
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 12:00:00-05:00",
+        "timestamp": "2025-02-07 09:00:00",
         "open": 601.57,
         "high": 602.85,
         "low": 600.64,
         "close": 602.16,
-        "volume": 4572461.0,
-        "trade_count": 68050.0,
-        "vwap": 601.846323
+        "volume": 4570901.0,
+        "trade_count": 68045,
+        "vwap": 602.2294
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 13:00:00-05:00",
+        "timestamp": "2025-02-07 10:00:00",
         "open": 602.17,
         "high": 603.75,
         "low": 601.13,
         "close": 601.235,
         "volume": 2743100.0,
-        "trade_count": 47280.0,
-        "vwap": 602.772995
+        "trade_count": 47280,
+        "vwap": 603.2813
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 14:00:00-05:00",
+        "timestamp": "2025-02-07 11:00:00",
         "open": 601.226,
         "high": 601.6,
         "low": 600.34,
         "close": 601.12,
         "volume": 3705395.0,
-        "trade_count": 54626.0,
-        "vwap": 601.094811
+        "trade_count": 54626,
+        "vwap": 601.7464
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 15:00:00-05:00",
+        "timestamp": "2025-02-07 12:00:00",
         "open": 601.11,
         "high": 601.26,
         "low": 600.05,
         "close": 600.78,
         "volume": 9181708.0,
-        "trade_count": 86066.0,
-        "vwap": 600.75006
+        "trade_count": 86066,
+        "vwap": 601.7931
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 16:00:00-05:00",
-        "open": 600.78,
+        "timestamp": "2025-02-07 13:00:00",
+        "open": 600.83,
         "high": 606.4184,
         "low": 600.77,
         "close": 600.87,
-        "volume": 4727474.0,
-        "trade_count": 4717.0,
-        "vwap": 601.088375
+        "volume": 3596685.0,
+        "trade_count": 4674,
+        "vwap": 601.1517
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 17:00:00-05:00",
+        "timestamp": "2025-02-07 14:00:00",
         "open": 600.96,
         "high": 601.1,
         "low": 600.7,
         "close": 600.7001,
-        "volume": 879227.0,
-        "trade_count": 1125.0,
-        "vwap": 600.790653
+        "volume": 705497.0,
+        "trade_count": 1122,
+        "vwap": 601.7997
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 18:00:00-05:00",
+        "timestamp": "2025-02-07 15:00:00",
         "open": 600.7,
         "high": 601.1,
         "low": 600.5,
         "close": 600.5999,
         "volume": 80680.0,
-        "trade_count": 852.0,
-        "vwap": 600.739275
+        "trade_count": 852,
+        "vwap": 600.7484
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-07 19:00:00-05:00",
+        "timestamp": "2025-02-07 16:00:00",
         "open": 600.6,
         "high": 600.6,
         "low": 600.21,
         "close": 600.2299,
         "volume": 54505.0,
-        "trade_count": 827.0,
-        "vwap": 600.381394
+        "trade_count": 827,
+        "vwap": 600.3702
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 04:00:00-05:00",
+        "timestamp": "2025-02-10 01:00:00",
         "open": 602.35,
         "high": 603.15,
         "low": 602.35,
         "close": 603.04,
         "volume": 18289.0,
-        "trade_count": 562.0,
-        "vwap": 602.885656
+        "trade_count": 562,
+        "vwap": 602.8888
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 05:00:00-05:00",
+        "timestamp": "2025-02-10 02:00:00",
         "open": 603.18,
         "high": 603.58,
         "low": 603.1,
         "close": 603.54,
         "volume": 6891.0,
-        "trade_count": 186.0,
-        "vwap": 603.317753
+        "trade_count": 186,
+        "vwap": 603.3221
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 06:00:00-05:00",
+        "timestamp": "2025-02-10 03:00:00",
         "open": 603.46,
         "high": 603.74,
         "low": 602.97,
         "close": 603.64,
         "volume": 24769.0,
-        "trade_count": 661.0,
-        "vwap": 603.512227
+        "trade_count": 661,
+        "vwap": 603.5061
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 07:00:00-05:00",
+        "timestamp": "2025-02-10 04:00:00",
         "open": 603.65,
         "high": 603.77,
         "low": 603.4,
         "close": 603.76,
         "volume": 120420.0,
-        "trade_count": 1534.0,
-        "vwap": 603.483429
+        "trade_count": 1534,
+        "vwap": 603.4901
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 08:00:00-05:00",
+        "timestamp": "2025-02-10 05:00:00",
         "open": 603.67,
         "high": 604.49,
         "low": 602.25,
         "close": 604.42,
         "volume": 261391.0,
-        "trade_count": 5224.0,
-        "vwap": 604.077465
+        "trade_count": 5224,
+        "vwap": 604.0431
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 09:00:00-05:00",
+        "timestamp": "2025-02-10 06:00:00",
         "open": 604.45,
         "high": 604.6,
         "low": 602.74,
         "close": 603.49,
-        "volume": 3575535.0,
-        "trade_count": 48910.0,
-        "vwap": 603.467431
+        "volume": 3574067.0,
+        "trade_count": 48890,
+        "vwap": 603.3081
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 10:00:00-05:00",
+        "timestamp": "2025-02-10 07:00:00",
         "open": 603.51,
         "high": 605.33,
         "low": 603.33,
         "close": 604.8688,
         "volume": 4386607.0,
-        "trade_count": 78304.0,
-        "vwap": 604.641939
+        "trade_count": 78304,
+        "vwap": 604.0835
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 11:00:00-05:00",
+        "timestamp": "2025-02-10 08:00:00",
         "open": 604.85,
         "high": 605.13,
         "low": 603.84,
         "close": 604.425,
         "volume": 2541147.0,
-        "trade_count": 60307.0,
-        "vwap": 604.392559
+        "trade_count": 60307,
+        "vwap": 604.3942
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 12:00:00-05:00",
+        "timestamp": "2025-02-10 09:00:00",
         "open": 604.41,
         "high": 604.64,
         "low": 603.2108,
         "close": 604.59,
-        "volume": 1847860.0,
-        "trade_count": 44233.0,
-        "vwap": 603.887171
+        "volume": 1844860.0,
+        "trade_count": 44232,
+        "vwap": 603.6781
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 13:00:00-05:00",
+        "timestamp": "2025-02-10 10:00:00",
         "open": 604.58,
         "high": 605.24,
         "low": 604.52,
         "close": 605.052,
         "volume": 1779172.0,
-        "trade_count": 39861.0,
-        "vwap": 604.846596
+        "trade_count": 39861,
+        "vwap": 604.5546
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 14:00:00-05:00",
+        "timestamp": "2025-02-10 11:00:00",
         "open": 605.05,
         "high": 605.4999,
         "low": 604.63,
         "close": 604.93,
         "volume": 2520249.0,
-        "trade_count": 38926.0,
-        "vwap": 605.078385
+        "trade_count": 38926,
+        "vwap": 605.0288
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 15:00:00-05:00",
+        "timestamp": "2025-02-10 12:00:00",
         "open": 604.95,
         "high": 605.19,
         "low": 604.2446,
         "close": 604.79,
-        "volume": 5881674.0,
-        "trade_count": 65586.0,
-        "vwap": 604.744937
+        "volume": 5906864.0,
+        "trade_count": 65988,
+        "vwap": 604.7546
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 16:00:00-05:00",
+        "timestamp": "2025-02-10 13:00:00",
         "open": 604.78,
         "high": 604.85,
         "low": 604.2,
         "close": 604.7,
-        "volume": 2800588.0,
-        "trade_count": 4201.0,
-        "vwap": 604.752684
+        "volume": 1605918.0,
+        "trade_count": 4181,
+        "vwap": 603.359
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 17:00:00-05:00",
+        "timestamp": "2025-02-10 14:00:00",
         "open": 604.69,
         "high": 604.7696,
         "low": 604.4,
         "close": 604.61,
-        "volume": 79502.0,
-        "trade_count": 580.0,
-        "vwap": 604.617122
+        "volume": 39611.0,
+        "trade_count": 579,
+        "vwap": 604.4276
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 18:00:00-05:00",
+        "timestamp": "2025-02-10 15:00:00",
         "open": 604.45,
         "high": 604.45,
         "low": 603.22,
         "close": 603.68,
         "volume": 122499.0,
-        "trade_count": 1174.0,
-        "vwap": 603.838479
+        "trade_count": 1174,
+        "vwap": 603.8336
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-10 19:00:00-05:00",
+        "timestamp": "2025-02-10 16:00:00",
         "open": 603.68,
         "high": 604.07,
         "low": 603.43,
         "close": 603.98,
         "volume": 35024.0,
-        "trade_count": 748.0,
-        "vwap": 603.784041
+        "trade_count": 748,
+        "vwap": 603.7921
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 04:00:00-05:00",
+        "timestamp": "2025-02-11 01:00:00",
         "open": 603.2,
         "high": 603.7,
         "low": 602.84,
         "close": 603.0,
         "volume": 27653.0,
-        "trade_count": 566.0,
-        "vwap": 603.16783
+        "trade_count": 566,
+        "vwap": 603.1595
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 05:00:00-05:00",
+        "timestamp": "2025-02-11 02:00:00",
         "open": 602.88,
         "high": 603.26,
         "low": 602.57,
         "close": 602.57,
         "volume": 32819.0,
-        "trade_count": 387.0,
-        "vwap": 602.919573
+        "trade_count": 387,
+        "vwap": 602.9168
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 06:00:00-05:00",
+        "timestamp": "2025-02-11 03:00:00",
         "open": 602.74,
         "high": 603.39,
         "low": 602.74,
         "close": 603.39,
         "volume": 10136.0,
-        "trade_count": 356.0,
-        "vwap": 603.066103
+        "trade_count": 356,
+        "vwap": 603.0906
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 07:00:00-05:00",
+        "timestamp": "2025-02-11 04:00:00",
         "open": 603.36,
         "high": 603.51,
         "low": 602.85,
         "close": 603.31,
         "volume": 99903.0,
-        "trade_count": 1779.0,
-        "vwap": 603.137118
+        "trade_count": 1779,
+        "vwap": 603.1335
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 08:00:00-05:00",
+        "timestamp": "2025-02-11 05:00:00",
         "open": 603.04,
         "high": 603.57,
         "low": 601.92,
         "close": 601.99,
         "volume": 276457.0,
-        "trade_count": 5303.0,
-        "vwap": 602.649122
+        "trade_count": 5303,
+        "vwap": 602.6732
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 09:00:00-05:00",
+        "timestamp": "2025-02-11 06:00:00",
         "open": 601.91,
         "high": 603.59,
         "low": 601.91,
         "close": 603.33,
-        "volume": 2256886.0,
-        "trade_count": 40757.0,
-        "vwap": 603.067988
+        "volume": 2246442.0,
+        "trade_count": 40711,
+        "vwap": 603.1002
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 10:00:00-05:00",
+        "timestamp": "2025-02-11 07:00:00",
         "open": 603.31,
         "high": 605.22,
         "low": 602.7,
         "close": 604.7062,
         "volume": 3672446.0,
-        "trade_count": 74254.0,
-        "vwap": 603.94735
+        "trade_count": 74254,
+        "vwap": 604.0821
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 11:00:00-05:00",
+        "timestamp": "2025-02-11 08:00:00",
         "open": 604.7,
         "high": 605.05,
         "low": 604.03,
         "close": 604.21,
         "volume": 2692003.0,
-        "trade_count": 62011.0,
-        "vwap": 604.628776
+        "trade_count": 62011,
+        "vwap": 604.6403
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 12:00:00-05:00",
+        "timestamp": "2025-02-11 09:00:00",
         "open": 604.18,
         "high": 604.43,
         "low": 603.1,
         "close": 603.7599,
         "volume": 3443909.0,
-        "trade_count": 54922.0,
-        "vwap": 603.834046
+        "trade_count": 54922,
+        "vwap": 603.9745
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 13:00:00-05:00",
+        "timestamp": "2025-02-11 10:00:00",
         "open": 603.75,
         "high": 605.3,
         "low": 603.5,
         "close": 604.59,
         "volume": 2109246.0,
-        "trade_count": 44613.0,
-        "vwap": 604.432499
+        "trade_count": 44613,
+        "vwap": 604.4179
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 14:00:00-05:00",
+        "timestamp": "2025-02-11 11:00:00",
         "open": 604.56,
         "high": 605.86,
         "low": 604.39,
         "close": 605.41,
         "volume": 3164735.0,
-        "trade_count": 44144.0,
-        "vwap": 605.063314
+        "trade_count": 44144,
+        "vwap": 604.9864
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 15:00:00-05:00",
+        "timestamp": "2025-02-11 12:00:00",
         "open": 605.41,
         "high": 605.65,
         "low": 604.61,
         "close": 605.21,
         "volume": 7462392.0,
-        "trade_count": 70133.0,
-        "vwap": 605.094517
+        "trade_count": 70133,
+        "vwap": 605.0891
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 16:00:00-05:00",
-        "open": 605.21,
+        "timestamp": "2025-02-11 13:00:00",
+        "open": 605.24,
         "high": 605.37,
         "low": 604.87,
         "close": 605.04,
-        "volume": 4177258.0,
-        "trade_count": 4753.0,
-        "vwap": 605.230448
+        "volume": 2781118.0,
+        "trade_count": 4595,
+        "vwap": 604.9879
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 17:00:00-05:00",
+        "timestamp": "2025-02-11 14:00:00",
         "open": 605.05,
         "high": 605.11,
         "low": 604.8,
         "close": 604.99,
-        "volume": 533303.0,
-        "trade_count": 829.0,
-        "vwap": 605.02454
+        "volume": 386395.0,
+        "trade_count": 828,
+        "vwap": 605.2674
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 18:00:00-05:00",
+        "timestamp": "2025-02-11 15:00:00",
         "open": 604.99,
         "high": 605.4,
         "low": 604.68,
         "close": 605.33,
         "volume": 46307.0,
-        "trade_count": 664.0,
-        "vwap": 605.059794
+        "trade_count": 664,
+        "vwap": 605.0663
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-11 19:00:00-05:00",
+        "timestamp": "2025-02-11 16:00:00",
         "open": 605.26,
         "high": 605.63,
         "low": 605.15,
         "close": 605.31,
         "volume": 31344.0,
-        "trade_count": 355.0,
-        "vwap": 605.451564
+        "trade_count": 355,
+        "vwap": 605.4453
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 04:00:00-05:00",
+        "timestamp": "2025-02-12 01:00:00",
         "open": 604.89,
         "high": 604.89,
         "low": 603.68,
         "close": 604.25,
         "volume": 39633.0,
-        "trade_count": 613.0,
-        "vwap": 604.185956
+        "trade_count": 613,
+        "vwap": 604.1954
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 05:00:00-05:00",
+        "timestamp": "2025-02-12 02:00:00",
         "open": 604.24,
         "high": 604.69,
         "low": 604.01,
         "close": 604.64,
         "volume": 42169.0,
-        "trade_count": 408.0,
-        "vwap": 604.263059
+        "trade_count": 408,
+        "vwap": 604.2796
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 06:00:00-05:00",
+        "timestamp": "2025-02-12 03:00:00",
         "open": 604.58,
         "high": 604.67,
         "low": 604.54,
         "close": 604.66,
         "volume": 6838.0,
-        "trade_count": 78.0,
-        "vwap": 604.605233
+        "trade_count": 78,
+        "vwap": 604.6065
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 07:00:00-05:00",
+        "timestamp": "2025-02-12 04:00:00",
         "open": 604.65,
         "high": 605.4,
         "low": 604.62,
         "close": 605.34,
         "volume": 115558.0,
-        "trade_count": 1240.0,
-        "vwap": 605.00806
+        "trade_count": 1240,
+        "vwap": 605.0036
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 08:00:00-05:00",
+        "timestamp": "2025-02-12 05:00:00",
         "open": 604.66,
         "high": 605.72,
         "low": 598.54,
         "close": 599.31,
         "volume": 2769616.0,
-        "trade_count": 18192.0,
-        "vwap": 600.509678
+        "trade_count": 18192,
+        "vwap": 600.4928
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 09:00:00-05:00",
+        "timestamp": "2025-02-12 06:00:00",
         "open": 599.22,
         "high": 601.68,
         "low": 598.231,
         "close": 601.355,
-        "volume": 11096659.0,
-        "trade_count": 59809.0,
-        "vwap": 599.937174
+        "volume": 11091381.0,
+        "trade_count": 59775,
+        "vwap": 599.7534
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 10:00:00-05:00",
+        "timestamp": "2025-02-12 07:00:00",
         "open": 601.36,
         "high": 603.32,
         "low": 599.58,
         "close": 602.43,
         "volume": 6493666.0,
-        "trade_count": 83523.0,
-        "vwap": 601.404116
+        "trade_count": 83523,
+        "vwap": 601.2966
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 11:00:00-05:00",
+        "timestamp": "2025-02-12 08:00:00",
         "open": 602.45,
         "high": 603.54,
         "low": 600.17,
         "close": 603.39,
         "volume": 3834752.0,
-        "trade_count": 55896.0,
-        "vwap": 601.63556
+        "trade_count": 55896,
+        "vwap": 601.7253
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 12:00:00-05:00",
+        "timestamp": "2025-02-12 09:00:00",
         "open": 603.41,
         "high": 604.53,
         "low": 602.84,
         "close": 604.39,
         "volume": 3798149.0,
-        "trade_count": 53118.0,
-        "vwap": 603.580117
+        "trade_count": 53118,
+        "vwap": 603.6106
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 13:00:00-05:00",
+        "timestamp": "2025-02-12 10:00:00",
         "open": 604.4,
         "high": 604.55,
         "low": 602.92,
         "close": 603.21,
         "volume": 2197458.0,
-        "trade_count": 37190.0,
-        "vwap": 603.587576
+        "trade_count": 37190,
+        "vwap": 603.6274
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 14:00:00-05:00",
+        "timestamp": "2025-02-12 11:00:00",
         "open": 603.22,
         "high": 604.23,
         "low": 602.53,
         "close": 603.9,
         "volume": 3571180.0,
-        "trade_count": 47154.0,
-        "vwap": 603.408137
+        "trade_count": 47154,
+        "vwap": 603.4648
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 15:00:00-05:00",
+        "timestamp": "2025-02-12 12:00:00",
         "open": 603.9,
         "high": 604.05,
         "low": 602.57,
         "close": 603.36,
         "volume": 6850524.0,
-        "trade_count": 69791.0,
-        "vwap": 603.365747
+        "trade_count": 69791,
+        "vwap": 603.5795
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 16:00:00-05:00",
-        "open": 603.36,
+        "timestamp": "2025-02-12 13:00:00",
+        "open": 603.39,
         "high": 604.1,
         "low": 602.99,
         "close": 604.04,
-        "volume": 3994784.0,
-        "trade_count": 5130.0,
-        "vwap": 603.416848
+        "volume": 2968396.0,
+        "trade_count": 5090,
+        "vwap": 603.504
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 17:00:00-05:00",
+        "timestamp": "2025-02-12 14:00:00",
         "open": 604.0,
         "high": 604.1,
         "low": 603.92,
         "close": 603.99,
-        "volume": 125830.0,
-        "trade_count": 747.0,
-        "vwap": 603.998094
+        "volume": 46562.0,
+        "trade_count": 746,
+        "vwap": 603.9931
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 18:00:00-05:00",
+        "timestamp": "2025-02-12 15:00:00",
         "open": 603.99,
         "high": 604.58,
         "low": 603.76,
         "close": 604.4104,
         "volume": 66241.0,
-        "trade_count": 850.0,
-        "vwap": 604.069756
+        "trade_count": 850,
+        "vwap": 604.0701
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-12 19:00:00-05:00",
+        "timestamp": "2025-02-12 16:00:00",
         "open": 604.5,
         "high": 604.689,
         "low": 604.2,
         "close": 604.59,
         "volume": 57695.0,
-        "trade_count": 707.0,
-        "vwap": 604.539712
+        "trade_count": 707,
+        "vwap": 604.5301
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 04:00:00-05:00",
+        "timestamp": "2025-02-13 01:00:00",
         "open": 602.44,
         "high": 603.42,
         "low": 601.65,
         "close": 603.32,
         "volume": 47331.0,
-        "trade_count": 882.0,
-        "vwap": 602.848796
+        "trade_count": 882,
+        "vwap": 602.7759
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 05:00:00-05:00",
+        "timestamp": "2025-02-13 02:00:00",
         "open": 603.42,
         "high": 603.6,
         "low": 603.0,
         "close": 603.44,
         "volume": 12932.0,
-        "trade_count": 251.0,
-        "vwap": 603.389036
+        "trade_count": 251,
+        "vwap": 603.3826
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 06:00:00-05:00",
+        "timestamp": "2025-02-13 03:00:00",
         "open": 603.53,
         "high": 603.91,
         "low": 602.79,
         "close": 603.4,
         "volume": 77169.0,
-        "trade_count": 799.0,
-        "vwap": 603.127107
+        "trade_count": 799,
+        "vwap": 603.1435
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 07:00:00-05:00",
+        "timestamp": "2025-02-13 04:00:00",
         "open": 603.32,
         "high": 603.49,
         "low": 602.72,
         "close": 603.17,
         "volume": 127709.0,
-        "trade_count": 1272.0,
-        "vwap": 603.037747
+        "trade_count": 1272,
+        "vwap": 603.0387
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 08:00:00-05:00",
+        "timestamp": "2025-02-13 05:00:00",
         "open": 603.28,
         "high": 604.99,
         "low": 602.0,
         "close": 604.62,
         "volume": 796603.0,
-        "trade_count": 7015.0,
-        "vwap": 603.855602
+        "trade_count": 7015,
+        "vwap": 603.8615
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 09:00:00-05:00",
+        "timestamp": "2025-02-13 06:00:00",
         "open": 604.5904,
         "high": 605.06,
         "low": 603.2,
         "close": 604.83,
-        "volume": 3317088.0,
-        "trade_count": 42363.0,
-        "vwap": 604.340699
+        "volume": 3316531.0,
+        "trade_count": 42357,
+        "vwap": 604.3356
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 10:00:00-05:00",
+        "timestamp": "2025-02-13 07:00:00",
         "open": 604.82,
         "high": 607.49,
         "low": 604.21,
         "close": 607.09,
         "volume": 5591033.0,
-        "trade_count": 76029.0,
-        "vwap": 606.090956
+        "trade_count": 76029,
+        "vwap": 605.9719
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 11:00:00-05:00",
+        "timestamp": "2025-02-13 08:00:00",
         "open": 607.09,
         "high": 607.48,
         "low": 605.75,
         "close": 606.1,
-        "volume": 2620235.0,
-        "trade_count": 42488.0,
-        "vwap": 606.759053
+        "volume": 2615189.0,
+        "trade_count": 42487,
+        "vwap": 606.7707
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 12:00:00-05:00",
+        "timestamp": "2025-02-13 09:00:00",
         "open": 606.1,
         "high": 606.97,
         "low": 605.72,
         "close": 606.1829,
-        "volume": 1975761.0,
-        "trade_count": 32506.0,
-        "vwap": 606.412315
+        "volume": 1834761.0,
+        "trade_count": 32505,
+        "vwap": 606.4136
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 13:00:00-05:00",
+        "timestamp": "2025-02-13 10:00:00",
         "open": 606.17,
         "high": 607.25,
         "low": 604.99,
         "close": 607.19,
         "volume": 3696194.0,
-        "trade_count": 53743.0,
-        "vwap": 606.17819
+        "trade_count": 53743,
+        "vwap": 606.1682
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 14:00:00-05:00",
+        "timestamp": "2025-02-13 11:00:00",
         "open": 607.19,
         "high": 609.29,
         "low": 607.03,
         "close": 608.9,
         "volume": 6212718.0,
-        "trade_count": 68205.0,
-        "vwap": 608.330113
+        "trade_count": 68205,
+        "vwap": 608.0533
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 15:00:00-05:00",
+        "timestamp": "2025-02-13 12:00:00",
         "open": 608.895,
         "high": 609.94,
         "low": 608.82,
         "close": 609.69,
-        "volume": 11293313.0,
-        "trade_count": 92445.0,
-        "vwap": 609.449861
+        "volume": 11286943.0,
+        "trade_count": 92444,
+        "vwap": 609.0561
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 16:00:00-05:00",
-        "open": 609.67,
+        "timestamp": "2025-02-13 13:00:00",
+        "open": 609.7,
         "high": 609.92,
         "low": 609.24,
         "close": 609.4,
-        "volume": 4861827.0,
-        "trade_count": 4543.0,
-        "vwap": 609.651472
+        "volume": 2552720.0,
+        "trade_count": 4483,
+        "vwap": 608.9564
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 17:00:00-05:00",
+        "timestamp": "2025-02-13 14:00:00",
         "open": 609.4,
         "high": 609.486,
         "low": 609.2,
         "close": 609.34,
-        "volume": 176850.0,
-        "trade_count": 940.0,
-        "vwap": 609.337723
+        "volume": 55736.0,
+        "trade_count": 939,
+        "vwap": 609.2622
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 18:00:00-05:00",
+        "timestamp": "2025-02-13 15:00:00",
         "open": 609.36,
         "high": 609.81,
         "low": 609.36,
         "close": 609.5,
         "volume": 56695.0,
-        "trade_count": 675.0,
-        "vwap": 609.550296
+        "trade_count": 675,
+        "vwap": 609.5501
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-13 19:00:00-05:00",
+        "timestamp": "2025-02-13 16:00:00",
         "open": 609.58,
         "high": 609.77,
         "low": 609.38,
         "close": 609.65,
         "volume": 32809.0,
-        "trade_count": 522.0,
-        "vwap": 609.625456
+        "trade_count": 522,
+        "vwap": 609.6238
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 04:00:00-05:00",
+        "timestamp": "2025-02-14 01:00:00",
         "open": 609.97,
         "high": 610.5,
         "low": 609.85,
         "close": 609.95,
         "volume": 37200.0,
-        "trade_count": 618.0,
-        "vwap": 610.199191
+        "trade_count": 618,
+        "vwap": 610.1955
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 05:00:00-05:00",
+        "timestamp": "2025-02-14 02:00:00",
         "open": 609.92,
         "high": 609.92,
         "low": 609.26,
         "close": 609.35,
         "volume": 26620.0,
-        "trade_count": 368.0,
-        "vwap": 609.667038
+        "trade_count": 368,
+        "vwap": 609.6578
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 06:00:00-05:00",
+        "timestamp": "2025-02-14 03:00:00",
         "open": 609.21,
         "high": 609.23,
         "low": 608.62,
         "close": 608.99,
         "volume": 40974.0,
-        "trade_count": 596.0,
-        "vwap": 608.939015
+        "trade_count": 596,
+        "vwap": 608.9305
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 07:00:00-05:00",
+        "timestamp": "2025-02-14 04:00:00",
         "open": 608.96,
         "high": 609.34,
         "low": 608.94,
         "close": 609.34,
         "volume": 68474.0,
-        "trade_count": 845.0,
-        "vwap": 609.108354
+        "trade_count": 845,
+        "vwap": 609.1084
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 08:00:00-05:00",
+        "timestamp": "2025-02-14 05:00:00",
         "open": 609.27,
         "high": 611.02,
         "low": 608.9981,
         "close": 609.72,
         "volume": 220421.0,
-        "trade_count": 3342.0,
-        "vwap": 609.489209
+        "trade_count": 3342,
+        "vwap": 609.4943
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 09:00:00-05:00",
+        "timestamp": "2025-02-14 06:00:00",
         "open": 609.75,
         "high": 610.64,
         "low": 609.65,
         "close": 610.465,
-        "volume": 3065319.0,
-        "trade_count": 40493.0,
-        "vwap": 610.259343
+        "volume": 3064477.0,
+        "trade_count": 40488,
+        "vwap": 610.2562
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 10:00:00-05:00",
+        "timestamp": "2025-02-14 07:00:00",
         "open": 610.48,
         "high": 610.99,
         "low": 609.73,
         "close": 610.51,
         "volume": 3085771.0,
-        "trade_count": 57658.0,
-        "vwap": 610.437268
+        "trade_count": 57658,
+        "vwap": 610.4073
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 11:00:00-05:00",
+        "timestamp": "2025-02-14 08:00:00",
         "open": 610.53,
         "high": 610.85,
         "low": 609.4,
         "close": 610.23,
         "volume": 4049492.0,
-        "trade_count": 46233.0,
-        "vwap": 610.103231
+        "trade_count": 46233,
+        "vwap": 609.961
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 12:00:00-05:00",
+        "timestamp": "2025-02-14 09:00:00",
         "open": 610.22,
         "high": 610.245,
         "low": 609.07,
         "close": 609.92,
         "volume": 2113326.0,
-        "trade_count": 34483.0,
-        "vwap": 609.622574
+        "trade_count": 34483,
+        "vwap": 609.6978
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 13:00:00-05:00",
+        "timestamp": "2025-02-14 10:00:00",
         "open": 609.92,
         "high": 610.7507,
         "low": 609.7,
         "close": 610.48,
         "volume": 1507712.0,
-        "trade_count": 32160.0,
-        "vwap": 610.244489
+        "trade_count": 32160,
+        "vwap": 610.2233
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 14:00:00-05:00",
+        "timestamp": "2025-02-14 11:00:00",
         "open": 610.4899,
         "high": 610.72,
         "low": 609.83,
         "close": 610.22,
         "volume": 2355060.0,
-        "trade_count": 36584.0,
-        "vwap": 610.301115
+        "trade_count": 36584,
+        "vwap": 610.2811
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 15:00:00-05:00",
+        "timestamp": "2025-02-14 12:00:00",
         "open": 610.21,
         "high": 610.29,
         "low": 609.545,
         "close": 609.7,
         "volume": 6764047.0,
-        "trade_count": 69128.0,
-        "vwap": 609.935269
+        "trade_count": 69128,
+        "vwap": 609.9255
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 16:00:00-05:00",
-        "open": 609.69,
+        "timestamp": "2025-02-14 13:00:00",
+        "open": 609.73,
         "high": 610.0901,
         "low": 609.42,
         "close": 609.98,
-        "volume": 3190316.0,
-        "trade_count": 4545.0,
-        "vwap": 609.777951
+        "volume": 2441118.0,
+        "trade_count": 4508,
+        "vwap": 609.8055
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 17:00:00-05:00",
+        "timestamp": "2025-02-14 14:00:00",
         "open": 609.93,
         "high": 609.95,
         "low": 609.7,
         "close": 609.87,
         "volume": 27658.0,
-        "trade_count": 398.0,
-        "vwap": 609.813328
+        "trade_count": 398,
+        "vwap": 609.815
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 18:00:00-05:00",
+        "timestamp": "2025-02-14 15:00:00",
         "open": 609.78,
         "high": 609.8,
         "low": 609.48,
         "close": 609.55,
         "volume": 34075.0,
-        "trade_count": 516.0,
-        "vwap": 609.675037
+        "trade_count": 516,
+        "vwap": 609.6666
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-14 19:00:00-05:00",
+        "timestamp": "2025-02-14 16:00:00",
         "open": 609.55,
         "high": 609.83,
         "low": 609.55,
         "close": 609.78,
         "volume": 23428.0,
-        "trade_count": 270.0,
-        "vwap": 609.746742
+        "trade_count": 270,
+        "vwap": 609.7471
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 04:00:00-05:00",
+        "timestamp": "2025-02-18 01:00:00",
         "open": 610.77,
         "high": 611.87,
         "low": 610.77,
         "close": 611.33,
         "volume": 43521.0,
-        "trade_count": 942.0,
-        "vwap": 611.658372
+        "trade_count": 942,
+        "vwap": 611.6512
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 05:00:00-05:00",
+        "timestamp": "2025-02-18 02:00:00",
         "open": 611.2,
         "high": 611.72,
         "low": 611.11,
         "close": 611.72,
         "volume": 5100.0,
-        "trade_count": 171.0,
-        "vwap": 611.413963
+        "trade_count": 171,
+        "vwap": 611.4153
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 06:00:00-05:00",
+        "timestamp": "2025-02-18 03:00:00",
         "open": 611.76,
         "high": 611.88,
         "low": 611.67,
         "close": 611.79,
         "volume": 23226.0,
-        "trade_count": 360.0,
-        "vwap": 611.775824
+        "trade_count": 360,
+        "vwap": 611.7749
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 07:00:00-05:00",
+        "timestamp": "2025-02-18 04:00:00",
         "open": 611.74,
         "high": 612.11,
         "low": 611.64,
         "close": 611.95,
         "volume": 67331.0,
-        "trade_count": 1439.0,
-        "vwap": 611.91453
+        "trade_count": 1439,
+        "vwap": 611.9012
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 08:00:00-05:00",
+        "timestamp": "2025-02-18 05:00:00",
         "open": 611.7,
         "high": 612.31,
         "low": 611.0,
         "close": 612.23,
         "volume": 114192.0,
-        "trade_count": 4956.0,
-        "vwap": 611.965609
+        "trade_count": 4956,
+        "vwap": 611.9585
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 09:00:00-05:00",
+        "timestamp": "2025-02-18 06:00:00",
         "open": 612.24,
         "high": 612.24,
         "low": 609.95,
         "close": 610.11,
-        "volume": 2976178.0,
-        "trade_count": 54879.0,
-        "vwap": 610.595998
+        "volume": 2964968.0,
+        "trade_count": 54829,
+        "vwap": 610.5913
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 10:00:00-05:00",
+        "timestamp": "2025-02-18 07:00:00",
         "open": 610.1538,
         "high": 610.62,
         "low": 609.33,
         "close": 610.61,
-        "volume": 3683013.0,
-        "trade_count": 55861.0,
-        "vwap": 609.89397
+        "volume": 3671513.0,
+        "trade_count": 55860,
+        "vwap": 609.9085
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 11:00:00-05:00",
+        "timestamp": "2025-02-18 08:00:00",
         "open": 610.605,
         "high": 610.855,
         "low": 609.76,
         "close": 610.25,
-        "volume": 2019227.0,
-        "trade_count": 50416.0,
-        "vwap": 610.406702
+        "volume": 1989902.0,
+        "trade_count": 50414,
+        "vwap": 610.4081
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 12:00:00-05:00",
+        "timestamp": "2025-02-18 09:00:00",
         "open": 610.24,
         "high": 610.545,
         "low": 609.78,
         "close": 610.35,
         "volume": 1653316.0,
-        "trade_count": 31065.0,
-        "vwap": 610.16608
+        "trade_count": 31065,
+        "vwap": 610.145
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 13:00:00-05:00",
+        "timestamp": "2025-02-18 10:00:00",
         "open": 610.34,
         "high": 610.6587,
         "low": 609.4519,
         "close": 609.66,
         "volume": 2526068.0,
-        "trade_count": 39646.0,
-        "vwap": 609.896484
+        "trade_count": 39646,
+        "vwap": 609.8947
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 14:00:00-05:00",
+        "timestamp": "2025-02-18 11:00:00",
         "open": 609.655,
         "high": 610.04,
         "low": 608.38,
         "close": 609.85,
         "volume": 3864148.0,
-        "trade_count": 48056.0,
-        "vwap": 609.289743
+        "trade_count": 48056,
+        "vwap": 609.3029
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 15:00:00-05:00",
+        "timestamp": "2025-02-18 12:00:00",
         "open": 609.87,
         "high": 611.38,
         "low": 609.63,
         "close": 611.35,
-        "volume": 6663275.0,
-        "trade_count": 64885.0,
-        "vwap": 610.222077
+        "volume": 6663273.0,
+        "trade_count": 64883,
+        "vwap": 610.1521
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 16:00:00-05:00",
-        "open": 611.37,
+        "timestamp": "2025-02-18 13:00:00",
+        "open": 611.42,
         "high": 611.5,
         "low": 610.93,
         "close": 611.0,
-        "volume": 2437760.0,
-        "trade_count": 6230.0,
-        "vwap": 611.375136
+        "volume": 1611006.0,
+        "trade_count": 6131,
+        "vwap": 611.0729
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 17:00:00-05:00",
+        "timestamp": "2025-02-18 14:00:00",
         "open": 611.0,
         "high": 611.08,
         "low": 610.92,
         "close": 610.98,
-        "volume": 88639.0,
-        "trade_count": 491.0,
-        "vwap": 611.003349
+        "volume": 45716.0,
+        "trade_count": 490,
+        "vwap": 610.9956
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 18:00:00-05:00",
+        "timestamp": "2025-02-18 15:00:00",
         "open": 610.98,
         "high": 611.57,
         "low": 610.98,
         "close": 611.5,
         "volume": 38005.0,
-        "trade_count": 600.0,
-        "vwap": 611.389232
+        "trade_count": 600,
+        "vwap": 611.3915
     },
     {
         "symbol": "SPY",
-        "timestamp": "2025-02-18 19:00:00-05:00",
+        "timestamp": "2025-02-18 16:00:00",
         "open": 611.41,
         "high": 611.95,
         "low": 611.38,
         "close": 611.95,
         "volume": 46605.0,
-        "trade_count": 605.0,
-        "vwap": 611.692932
+        "trade_count": 605,
+        "vwap": 611.6954
     }
 ]

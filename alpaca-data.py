@@ -7,9 +7,6 @@ api_key = os.getenv("ALPACA_API_KEY")
 secret_key = os.getenv("ALPACA_SECRET_KEY")
 symbols = os.getenv("ALPACA_SYMBOLS")
 
-print("API Key:", api_key)
-print("Secret Key:", secret_key)
-
 from alpaca.data.historical import StockHistoricalDataClient
 
 stock_client = StockHistoricalDataClient(api_key=api_key,secret_key=secret_key)
@@ -24,25 +21,22 @@ import pytz
 est = pytz.timezone('US/Eastern')
 
 # Convert datetime to EST
-start_time = datetime(2025, 2, 2, 11).replace(tzinfo=pytz.UTC).astimezone(est)
-end_time = datetime.now(est)
+start_time = datetime(2025, 2, 2, 11)
+end_time = datetime.now()
 
 symbols = "SPY"
 opening_bar = stock_client.get_stock_bars(StockBarsRequest(
         symbol_or_symbols=symbols,
         timeframe=TimeFrame.Hour,
-        start=datetime(2025, 2, 3, 9).replace(tzinfo=pytz.UTC).astimezone(est),
-        end_time = datetime.now(pytz.UTC).astimezone(est) - timedelta(hours=2),
+        start=start_time,
+        end_time = end_time,
     )).df.reset_index('timestamp')
-opening_bar['timestamp'] = opening_bar['timestamp'].dt.tz_convert('US/Eastern')
+opening_bar['timestamp'] = opening_bar['timestamp']
 
 open_prices = opening_bar.open
-# print(opening_bar)
-current_est = datetime.now(pytz.timezone('EST')) - timedelta(hours=2)
-print('current_est->' , current_est)
 
 
-import pandas as pd
+
 import json
 from datetime import datetime
 
@@ -51,8 +45,14 @@ def save_to_json(df):
     df = df.reset_index()
     df['timestamp'] = df['timestamp'].astype(str)
     data_dict = df.to_dict('records')
-    with open('market_data.json', 'w') as f:
+    with open('alpaca_data.json', 'w') as f:
         json.dump(data_dict, f, indent=4)
 
 save_to_json(opening_bar)
 
+# print(opening_bar)
+print('current_time->' , datetime.now())
+import time
+
+timezone_name = time.tzname[0]
+print("alpaca_time_zone--->",timezone_name)
